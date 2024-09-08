@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- style in main render -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- style in main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="#">echo</a></div>
+                <i class="fas fa-bars bar" id="bar"></i>
+                <ul id="bars-ul">
+                    <li class="active"><a href="index.html">home</a></li>
+                        <li class="dropdown" id="dropdown">
+                            <a href="#">dropdown <i class="fas fa-chevron-down"></i></a>
+                            <ul id="dropdown-one">
+                                <li><a href="#">menu one</a></li>
+                                <li class="menu-two"><a href="#">menu two <i class="fas fa-chevron-right"></i></a>
+                                    <ul class="Two">
+                                        <li><a href="#">sub menu one</a></li>
+                                        <li><a href="#">sub menu two</a></li>
+                                        <li><a href="#">sub menu three</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">menu three</a></li>
+                            </ul>
+                        </li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                    <li><button><a href="#">download now </a></button></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <div class="content-text">
+                    <p class="pra-one">CONTACT
+                    </p>
+                    <h1>Get In Touch
+
+                    </h1>
+                    <p class="pra-two">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <div class="btns">
+                        <button class="btn1">how we work</button>
+                        <button class="btn2">contact us</button>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/about_1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="ContactUs">
+        <div class="container">
+            <div class="content">
+                <p>contact us</p>
+                <h2>Let's have a talk</h2>
+            </div>
+            <form class="contact-user" method="get">
+                <div class="firs-las parent">
+                    <div class="child">
+                        <label for="firstName">First name</label>
+                        <input type="text" name="firstName" id="firstName">
+                    </div>
+                    <div class="child">
+                        <label for="Last">Last name</label>
+                        <input type="text"name="lastName" id="Last">
+                    </div>
+                </div>
+                <div class="parent">
+                    <label for="email">Email address</label>
+                    <input type="email" name="Email" id="email">
+                </div>
+                <div class="parent">
+                    <label for="Message">Email address</label>
+                    <textarea name="Message" id="Message"></textarea>
+                </div>
+                <div class="btn7 parent">
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div>
+                <h4>
+                    About Cololib
+                </h4>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <div class="socile">
+                    <div><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></div>
+                    <div><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></div>
+                    <div><a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a></div>
+                </div>
+            </div>
+            <div>
+                <h4>pages</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <ul>
+                    <li><i class="fas fa-envelope"></i><a href="#"> info@Cololib</a></li>
+                    <li><i class="fas fa-phone-alt"></i><a href="#"> +1 222 212 3819</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i><a href="#"> 43 Raymouth Rd. Baltemoer, London 3910</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot">
+            <p>            Copyright ©2023 All rights reserved | This template is made with <i class="fas fa-heart"></i> by Mahmoud Khaled
+            </p>
+        </div>
+    </footer>
+    <script src="js/jsque.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
